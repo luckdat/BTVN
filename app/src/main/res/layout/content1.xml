@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/backgroundwhite"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@drawable/profile"
+            android:layout_width="40dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tvi1"
+            android:layout_toRightOf="@+id/img1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Contraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/tvi1"
+            android:layout_toRightOf="@+id/img1"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Per hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@+id/tv12"
+            android:id="@+id/img2"
+            android:src="@drawable/profile"
+            android:layout_width="40dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tvi2"
+            android:layout_toRightOf="@+id/img2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="10 Kicks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/tvi2"
+            android:layout_toRightOf="@+id/img2"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:backgroundTint="@color/gradient_center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rl2"
+        android:id="@+id/btn1"
+        android:text="Check Symptoms"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:textSize="18sp"
+        android:backgroundTint="@color/white1"
+        android:textColor="@color/gradient_center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn2"
+        android:layout_below="@+id/btn1"
+        android:text="Tools Shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

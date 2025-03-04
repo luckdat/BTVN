@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="100dp"
+            android:background="@drawable/vongtrontrang"
+            android:layout_centerHorizontal="true"
+            android:layout_height="100dp">
+            <ImageView
+                android:padding="2dp"
+                android:id="@+id/tv_1"
+                android:layout_centerInParent="true"
+                android:src="@drawable/people"
+                android:layout_width="2000dp"
+                android:layout_height="200dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv1"
+            android:layout_below="@id/rl1"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Jane Smith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_below="@id/tv1"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/gray"
+            android:text="San Francisco, CA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tv3"
+            android:textSize="16sp"
+            android:text="Edit"
+            android:textColor="@color/gradient_center"
+            android:backgroundTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

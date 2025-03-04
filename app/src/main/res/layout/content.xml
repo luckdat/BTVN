@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/backgroundwhite"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@drawable/profile"
+            android:layout_width="40dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvi1"
+            android:layout_toRightOf="@+id/img1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="My contact information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/tvi1"
+            android:layout_toRightOf="@+id/img1"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Name, Phone, Email, Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/hinhtronxam"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/muiten1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/rl2"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/heart" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvi2"
+            android:layout_toRightOf="@+id/img2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="My health information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/tvi2"
+            android:layout_toRightOf="@+id/img2"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Medical and pregnancy history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:src="@drawable/muiten1"
+            android:background="@drawable/hinhtronxam"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/rl3"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img3"
+            android:src="@drawable/hospital"
+            android:layout_width="40dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tvi3"
+            android:layout_toRightOf="@+id/img3"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Provider and Hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/tvi3"
+            android:layout_toRightOf="@+id/img3"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Your OB/GYN, delivery hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/hinhtronxam"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/muiten1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl5"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/rl4"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img4"
+            android:src="@drawable/siren"
+            android:layout_width="40dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/tvi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/img4"
+            android:text="Emergency contacts"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/tvi4"
+            android:layout_toRightOf="@+id/img4"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="People who you would like to notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:background="@drawable/hinhtronxam"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/muiten1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

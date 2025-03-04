@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/backgroundwhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/location"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/stats"
+            android:layout_centerInParent="true"
+            android:src="@drawable/stats"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/person"
+            android:layout_centerInParent="true"
+            android:src="@drawable/person"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_centerInParent="true"
+            android:src="@drawable/setting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/headerhome"/>
+            </RelativeLayout>
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/weekViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/r1"
+                android:padding="0dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/weekViewPager"
+                android:id="@+id/tv11"
+                android:text="Your baby weighs a little over 4 pounds and has \n
+                 passed the 17 inch mark."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:id="@+id/rl6"
+                android:layout_below="@id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/content1"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Menu dưới cùng -->
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <include layout="@layout/menu" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"> <!-- Chuyển từ rectangle sang oval để tạo hình tròn -->
+
+    <solid android:color="#F9F9F9"/> <!-- Màu xám mờ (Light Gray) -->
+
+    <stroke
+        android:width="2dp"
+        android:color="#F9F9F9"/> <!-- Viền màu xám đậm hơn một chút (Gray) -->
+
+    <size
+        android:width="100dp"
+        android:height="100dp"/> <!-- Điều chỉnh kích thước hình tròn -->
+
+</shape>
